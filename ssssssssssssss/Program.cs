@@ -5,3 +5,7 @@ double alapdij = 1100;
 double kmdij = 440;
 double eszakai_potlek = 1.20;
 double osz1 = alapdij+(kmdij*megtettav);
+if (eszakai)
+{
+    osz1 = osz1 * eszakai_potlek;
+}
